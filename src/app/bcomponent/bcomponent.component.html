@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6 m-auto mt-5">
+      <label>{{ name }}, Please Enter Your Age</label>
+      <input
+        type="number"
+        placeholder="22"
+        class="form-control mt-2 mb-3"
+        [(ngModel)]="age"
+      />
+      <button class="btn btn-warning col-12" (click)="goToCcomp()">Next</button>
+    </div>
+  </div>
+</div>
